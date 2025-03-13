@@ -1,6 +1,7 @@
+novo comite
 #include <stdio.h>
 
-typedef struct {
+    typedef struct {
     char estado;
     char codigo[4];
     char nome_cidade[50];
