@@ -14,7 +14,7 @@ int main() {
     Carta carta1, carta2;
 
     printf("Cadastro da primeira carta:\n");
-    printf("Estado (A-H): ");
+    printf("Estado (A-B): ");
     scanf(" %c", &carta1.estado);
     printf("Código da Carta: ");
     scanf("%s", carta1.codigo);
@@ -30,7 +30,7 @@ int main() {
     scanf("%d", &carta1.num_pontos_turisticos);
 
     printf("\nCadastro da segunda carta:\n");
-    printf("Estado (A-H): ");
+    printf("Estado (A-B): ");
     scanf(" %c", &carta2.estado);
     printf("Código da Carta: ");
     scanf("%s", carta2.codigo);
